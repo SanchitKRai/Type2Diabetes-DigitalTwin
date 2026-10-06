@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large/generated Synthea output
+synthea/output/
+
+# Python cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.log
+# Synthea source/build/output - kept local
+synthea/
+
+# Intermediate processed dataset
+data/processed/t2dm_timeseries.csv
+
+# Baseline model - final model is sufficient for demo
+models/xgb_baseline.pkl

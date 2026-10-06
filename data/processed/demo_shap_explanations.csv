@@ -1,0 +1,6 @@
+patient_id,timestamp,current_glucose,predicted_probability,predicted_spike,actual_spike,top_feature_1,top_feature_1_shap,top_feature_2,top_feature_2_shap,top_feature_3,top_feature_3_shap
+09f51a16-d166-d7b3-1965-c9f60181446a,2026-01-01 13:55:00,139.5,0.8421448469161987,1,0,glucose_rolling_mean_30min,0.8672626,age,0.5015919,steps,0.41568956
+187a1094-82b0-8949-3e8e-1b78c62581c1,2026-01-01 07:10:00,131.6,0.9446591138839722,1,1,hour,1.3796451,steps,0.6592964,glucose_rolling_mean_30min,0.6332045
+327c1aa7-a065-a2e1-4bd7-5c2a1b0ee87a,2026-01-01 12:25:00,129.8,0.9375692009925842,1,1,hour,1.2393614,glucose_rolling_mean_30min,0.57230246,steps,0.37259513
+d7af6e65-bec0-a9a9-a7d6-fa39bdfa460d,2026-01-01 12:10:00,135.1,0.9396664500236511,1,1,hour,1.2618474,glucose_rolling_mean_30min,0.90151054,triglycerides,-0.41066846
+db55a107-0cb4-0276-8ade-7d4a0a0dd424,2026-01-01 07:25:00,134.7,0.9200500845909119,1,1,hour,1.2124373,glucose_rolling_mean_30min,1.0899035,baseline_glucose,-1.0158198
