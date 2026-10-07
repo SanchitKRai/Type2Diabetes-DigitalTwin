@@ -1,0 +1,26 @@
+TYPE 2 DIABETES DIGITAL TWIN
+Healthcare Use Case & Problem Statement
+
+1. PROBLEM STATEMENT
+
+Type 2 Diabetes is a dynamic condition in which glucose levels continuously change in response to multiple physiological and behavioral factors. Conventional Electronic Health Records (EHRs) primarily capture historical information such as diagnoses, laboratory measurements, and medications, but they do not continuously represent the patient's changing physiological state.
+
+This creates a gap between a patient's historical clinical profile and their current dynamic condition. A Digital Twin approach can bridge this gap by combining historical patient information with continuously changing physiological signals such as continuous glucose monitoring (CGM), physical activity, and sleep.
+
+The problem addressed in this project is therefore:
+
+Can a patient-specific Digital Twin combine historical EHR context with dynamic physiological signals to predict whether a patient's glucose will exceed a predefined synthetic modeling target exactly two hours ahead, while also explaining why the model generated that prediction?
+
+
+2. HEALTHCARE USE CASE
+
+The proposed system is designed as a research proof of concept for Type 2 Diabetes monitoring and predictive risk assessment.
+
+The Digital Twin combines simulated EHR information with dynamic CGM, activity, and sleep signals to maintain a representation of an individual patient's current state. An XGBoost model then estimates the probability that glucose will exceed the project's synthetic modeling target of >160 mg/dL exactly two hours ahead.
+
+SHAP-based explainability is used to identify the features that contributed most strongly to each prediction. The results are presented through an interactive dashboard showing the patient's current state, predicted risk, 24-hour glucose trajectory, actual outcome, and major model contributors.
+
+In a future real-world implementation, such a system could support early risk identification, patient-specific monitoring, longitudinal trend analysis, and research into personalized diabetes decision-support systems.
+
+IMPORTANT:
+The current implementation uses synthetic data and has not undergone clinical validation. It is a research/educational proof of concept and is not intended for diagnosis, treatment, or clinical decision-making.
